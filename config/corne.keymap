@@ -39,12 +39,12 @@
 
         n_tilde_combo {
             bindings = <&kp RA(N)>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         vim_combo {
             bindings = <&sl 8>;
-            key-positions = <10 11>;
+            key-positions = <10 9>;
         };
     };
 
