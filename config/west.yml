@@ -1,11 +1,17 @@
 manifest:
   remotes:
+      # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: praconly                         #new entry
+      url-base: https://github.com/praconly  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
+    - name: urchin-peripheral-animation           
+      remote: praconly                     
+      revision: main                   
   self:
     path: config
