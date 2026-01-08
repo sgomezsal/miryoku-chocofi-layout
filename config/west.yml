@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sgomezsal
-      url-base: https://github.com/sgomezsal
+    - name: qwerty22121998
+      url-base: github.com/qwerty22121998
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
-    - name: urchin-peripheral-animation
-      remote: sgomezsal
+    - name: nice-view-anim
+      remote: qwerty22121998
       revision: main
   self:
     path: config
