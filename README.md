@@ -1,5 +1,10 @@
 # Miryoku-Chocofi Layout
 
+![ZMK](https://img.shields.io/badge/ZMK-Firmware-blue)
+![Miryoku](https://img.shields.io/badge/Miryoku-Layout-green)
+![Chocofi](https://img.shields.io/badge/Chocofi-36--key-orange)
+![Editor](https://img.shields.io/badge/Keymap-Editor-purple)
+
 An ergonomic, minimal, and fully-featured keymap for the **Chocofi 36-key split keyboard** (RP2040).  
 Built on the principles of [Miryoku](https://github.com/manna-harbour/miryoku) — efficiency, symmetry, and minimal finger movement.
 
