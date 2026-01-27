@@ -27,7 +27,7 @@ It removes the need to manually adapt Miryoku’s QMK or ZMK templates and makes
 
 ## 🧩 Layout Overview
 
-<img width="668" height="319" alt="image" src="https://github.com/user-attachments/assets/bc8c4865-9caf-41a1-b619-b0b567db1bdc" />
+<img width="668" height="319" alt="image" src="https://github.com/manna-harbour/miryoku/blob/master/data/cover/miryoku-kle-cover.png?raw=true" />
 
 **Base Layer (Colemak-DH)**  
 Home-row mods on both hands; thumbs control layers and key functions.
