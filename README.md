@@ -3,8 +3,6 @@
 An ergonomic, minimal, and fully-featured keymap for the **Chocofi 36-key split keyboard** (RP2040).  
 Built on the principles of [Miryoku](https://github.com/manna-harbour/miryoku) — efficiency, symmetry, and minimal finger movement.
 
-![Miryoku Chocofi Base Layer](assets/layout.png)
-
 ---
 
 ## ✨ Features
