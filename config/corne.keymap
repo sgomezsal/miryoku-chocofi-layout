@@ -40,35 +40,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        n_tilde_combo {
-            bindings = <&kp RA(N)>;
-            key-positions = <1 2>;
-        };
-
-        vim_combo {
-            bindings = <&sl 8>;
-            key-positions = <10 9>;
-        };
-    };
-
-    macros {
-        vim_quit_force: nvim {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp COLON &kp Q &kp EXCLAMATION>;
-            label = "NVIM";
-        };
-
-        vim_write_quit: vim_write_quit {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp COLON &kp W &kp Q>;
-            label = "VIM_WRITE_QUIT";
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -177,17 +149,6 @@
             >;
 
             label = "Fun";
-        };
-
-        vim_layer {
-            bindings = <
-&none  &none            &none            &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &vim_quit_force  &vim_write_quit  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none            &none            &none  &none  &none    &none  &none  &none  &none  &none  &none
-                                         &none  &none  &none    &none  &none  &none
-            >;
-
-            label = "Vim";
         };
     };
 };
